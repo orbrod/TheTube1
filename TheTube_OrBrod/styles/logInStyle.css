@@ -1,0 +1,62 @@
+﻿body {
+    direction: rtl;
+    /*background-color: #A9E5FF;*/
+    background-color: #080E33;
+}
+#container {
+    /*width: 1280px;
+    /*height: 725px;
+    margin-right: 100px;
+    background-repeat: no-repeat;
+    margin: auto 0;
+    background-image: url(../images/enterBack.png);
+    background-size: 100%;
+    margin-right: 116px;*/
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Calibri;
+    width: 1280px;
+    height: 618px;
+    margin: 0 auto;
+    background-color: #F0F2DF;
+    /*box-shadow: 4px 4px 13px grey;*/
+    box-shadow: 4px 4px 30px white;
+    border: 2px dashed;
+    border-color: #54BFFF;
+    margin-top: 31px;
+    background-color: white;
+    border-radius: 3px;
+    padding-right: 24px;
+    background-image: url('../images/backColors.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.itemsDiv {
+    font-family: Calibri;
+    font-size: 14px;
+    margin-right: 46%;
+    position: relative;
+    top: 30%;
+}
+#logo2 {
+    background-image: url(../images/theTubeLogo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 200px;
+    height: 200px;
+    margin-right: 46%;
+    margin-bottom: -183px;
+}
+#submit {
+    border-radius: 50px;
+    border: hidden;
+    background-color: #FFFF17;
+    height: 35px;
+    width: 68px;
+    margin-right: 54px;
+    margin-top: 6px;
+    box-shadow: 4px 4px 13px grey;
+}
+#massege, #massege2{
+    color: red;
+}

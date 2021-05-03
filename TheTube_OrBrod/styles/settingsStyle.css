@@ -1,0 +1,149 @@
+﻿body {
+    direction: rtl;
+    background-color: #080E33;
+}
+#container {
+    /*background-image: url('../images/bluuYellow.png');
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Calibri;
+    width: 1280px;
+    height: 618px;
+    margin: 0 auto;
+    background-color: #F0F2DF;
+    /*box-shadow: 4px 4px 36px grey;*/
+    box-shadow: 4px 4px 30px white;
+    border: 2px dashed;
+    border-color: #54BFFF;
+    margin-top: 31px;
+    background-color: white;
+    border-radius: 3px;
+    padding-right: 24px;
+}
+#gameNameLbl, #instrLbl {
+    font-family: Calibri;
+    font-size: 18px;
+    margin-right: 106px;
+    position: relative;
+    top: 128px;
+}
+span#instrLbl {
+    position: relative;
+    top: 141px;
+}
+#Button1, #Button2 {
+    border-radius: 50px;
+    border: hidden;
+    background-color: #FFFF17;
+    height: 35px;
+    font-size: 14px;
+    font-family: Calibri;
+    margin-top: 427px;
+    margin-right: 97px;
+    margin-left: -93px;
+    position: relative;
+    top: -344px;
+    box-shadow: 4px 4px 13px grey;
+}
+.buttonNotAble {
+    background-color: gainsboro !important;
+}
+#gameName {
+    font-family: Calibri;
+    font-size: 24px;
+    margin-right: 107px;
+    position: relative;
+    top: 66px;
+    background-color: #FF0F68;
+}
+input#TextBox2 {
+    margin-right: 107px;
+    margin-top: 149px;
+    width: 472px;
+    height: 20px;
+    font-family:Calibri;
+}
+input#TextBox1 {
+    margin-right: 107px;
+    position: relative;
+    top: 135px;
+    margin-bottom: 11px;
+    width: 472px;
+    height: 20px;
+    font-family:Calibri;
+}
+span#QuestLbl {
+    margin-right: 7px;
+    position: relative;
+    top: 136px;
+}
+span#QuestLbl2 {
+    margin-right: 7px;
+}
+#Label1 {
+    font-family: Calibri;
+    font-size: 18px;
+    position: relative;
+    right: 107px;
+    top: 68px;
+}
+#back {
+    width: 50px;
+    height: 50px;
+    /* position: absolute; */
+    margin-bottom: -50px;
+    /* right: 1183px; */
+    position: relative;
+    right: 67%;
+}
+#grayBack {
+    background-color: rgba(128, 128, 128,0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+#goBack {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 0px;
+    z-index: 1;
+    width: 500px;
+    border-radius: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    font-family: Calibri;
+    height: 200px;
+}
+.panelBtns {
+    width: 78px;
+    height: 24px;
+    display: inline-block;
+    margin-top: 62px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    right: -167px;
+    margin-right: 29px;
+    font-family: Calibri;
+    box-shadow: 4px 4px 13px grey;
+}
+#confirm {
+    background-color: #FFFF17;
+}
+span#Label2 {
+    position: relative;
+    top: -57px;
+    right: 107px;
+    align-items: center;
+    /* margin-right: 50%; */
+}

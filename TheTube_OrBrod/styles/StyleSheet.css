@@ -1,0 +1,584 @@
+﻿
+body {
+    direction: rtl;
+    overflow-y: hidden;
+    /*background-color: #F0F2DF;*/
+    /*background-color: #A9E5FF;*/
+    background-color: #080E33;
+}
+.container {
+    /*background-image: url(../images/bluuYellow.png);
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+    font-family: Calibri;
+    width: 1280px;
+    height: 618px;
+    margin: 0 auto;
+    background-color: #F0F2DF;
+    /*box-shadow: 4px 4px 36px grey;*/
+    box-shadow: 4px 4px 30px white;
+    border: 2px dashed;
+    border-color: #54BFFF;
+    margin-top: 31px;
+    background-color: white;
+    border-radius: 3px;
+    padding-right: 24px;
+    outline:none;
+}
+h1 {
+    font: bold 24px;
+    font-family: "Calibri";
+    background-color: #FF0F68;
+    width: 179px;
+}
+#gameName {
+    font: bold 18px;
+    font-family: "Calibri";
+    margin-bottom: -20px;
+}
+.Grid th {
+    background-color: cornflowerblue;
+    font-family: "Calibri";
+
+}
+.Grid {
+    margin-right: 5px;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.Grid td {
+    background-color: lightgray;
+    font-family: "Calibri";
+    text-align:center;
+
+}
+.Grid td:nth-child(7){
+    width:300px;
+}
+ 
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+    
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+.slider.SliderChecked:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.SliderChecked {
+    background-color: #2196F3;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+    .slider.SliderChecked:hover {
+        background-color: #ccc !important;
+    }
+
+/*input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}*/
+
+ /*Rounded sliders*/ 
+.slider.round {
+    border-radius: 34px;
+}
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-top: 3px;
+}
+
+
+#deletePanel {
+    margin-right: 0px;
+    z-index: 1;
+    width: 500px;
+    border-radius: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:white;
+    /*right: 402px;
+    top: 224px;*/
+}
+.hidden{
+    display:none;
+}
+.red{
+    color:red;
+}
+.black{
+    color:black;
+}
+.green {
+    width: 100px;
+    height: 27px;
+    font-family: "Calibri";
+    font-size: 18px;
+    position: relative;
+    top: 35px;
+    margin-right: 31px;
+    margin-left: -31px;
+    /*background-color: darkseagreen;*/
+    background-color: #11EBFF;
+    font-weight:bold;
+    border: none;
+    outline:none;
+}
+.noFill {
+    width: 100px;
+    height: 27px;
+    font-family: "Calibri";
+    font-size: 18px;
+    position: relative;
+    top: 35px;
+    margin-right: 31px;
+    margin-left: -31px;
+    background-color: none;
+    font-weight: bold;
+    border: 1px,solid;
+    outline:none;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    z-index:2;
+   
+}
+
+    /* Tooltip text */
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        /* Position the tooltip text - see examples below! */
+        position: absolute;
+        z-index: 4;
+       
+    }
+
+    /* Show the tooltip text when you mouse over the tooltip container */
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+#ButtonAdd {
+    border-radius: 50px;
+    border: hidden;
+    background-color: #FFFF17;
+    height: 35px;
+    font-size: 14px;
+    font-family: Calibri;
+    position: relative;
+    right: 16px;
+    width: 88px;
+    box-shadow: 4px 4px 13px grey;
+}
+.buttonNotAble  {
+    background-color:gainsboro !important;
+    
+}
+
+.oval {
+    z-index: -1;
+    display: inline-block;
+    background-image: url(../images/round.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 158px;
+    width: 158px;
+    margin-right: 52px;
+    margin-left: 57px;
+}
+.TextBoxInOval{
+    display: inline-block;
+    width: 104px;
+    margin-bottom: 59px;
+    margin-right: -40px;
+    margin-left: -72px;
+    position: relative;
+    right: -47px;
+    top: 0px;
+}
+.imageCss {
+    margin-right: 74px;
+    margin-left: 30px;
+    margin-top: -116px;
+}
+
+
+
+
+.labels{
+    display:inline-block;
+    color:red;
+}
+#text2 {
+    position: relative;
+    right: 56px;
+    top: 42px;
+}
+#text1 {
+    position: relative;
+    top: 42px;
+    right: 69px;
+}
+.buttons {
+    width: 100px;
+    height: 27px;
+    font-family: "Calibri";
+    font-size: 18px;
+    position: relative;
+    top: 35px;
+    margin-right: 142px;
+    margin-left: -143px;
+    display: inline-block;
+    right: -100px;
+    outline:none;
+    font-weight:bold;
+}
+/*#oval1 {
+    position: relative;
+    right: -74px;
+}*/
+
+.GridIn {
+    margin-top: -113px;
+    position: relative;
+    margin-right: 718px;
+    top: -421px;
+    text-align:center;
+}
+.GridIn th{
+    background-color:lightskyblue;
+    font-family:Calibri;
+    
+
+}
+.GridIn td{
+    font-family:Calibri;
+}
+#TextBox7 {
+    width: 115px;
+    position: relative;
+    right: -197px;
+    top: -57px;
+    margin-left: -108px;
+}
+#TextBox8 {
+    width: 115px;
+    position: relative;
+    right: -198px;
+    top: -56px
+}
+#countNote {
+    margin-right: 874px;
+    position: relative;
+    top: -552px;
+    font-size: 18px;
+    font-family: Calibri;
+}
+#item1Lbl {
+    font-size: 22px;
+    margin-right: 23px;
+    margin-left: 140px;
+    font-family: Calibri;
+    /* background-color: deepskyblue; */
+    border-bottom: 3px solid #069DBF;
+    /* border-bottom-width: 3px; */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#item2Lbl {
+   
+    font-size: 22px;
+    font-family: Calibri;
+    /* background-color: orange; */
+    border-bottom: 3px solid #B77ABF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-right: 20px;
+}
+#Label1 {
+    font-size: 24px;
+    font-family: Calibri;
+    position: relative;
+    top: 21px;
+    right: -38px;
+    margin-right: 25px;
+    margin-left: -28px;
+    background-color: #FF0F68;
+}
+
+#editCon {
+    font-family: Calibri;
+    font-size: 18px;
+    margin-right: -7px;
+    position: relative;
+    top: -13px;
+}
+#innerTable {
+    width: 516px;
+    max-height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    direction: ltr;
+    background-color: white;
+}
+.gridDirection{
+    direction:rtl;
+}
+#deleteLbl {
+    font-family: Calibri;
+    font-size: 20px;
+    position: relative;
+    top: 29px;
+    right: 131px;
+}
+#deleteTxt1, #deleteTxt2 {
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight:bold;
+
+}
+
+#imageDel1{
+
+}
+#Image1 {
+    position: relative;
+    top: -66px;
+    right: 23px;
+    z-index: 1
+}
+#Image2 {
+    position: relative;
+    /*margin-right: 284px;*/
+    /*right: 208px;*/
+    top: -66px;
+    z-index: 1;
+}
+
+#mainTable {
+    max-height: 364px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    direction: ltr;
+}
+#mainDel {
+    margin-right: 144px;
+    /* margin-top: -1px; */
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    font-family: Calibri;
+    direction: rtl;
+}
+#gameNameToDel {
+    
+    font-size: 18px;
+    margin-right: 40%;
+    font-family: Calibri;
+    font-weight: bold;
+    text-align: center;
+}
+#TextBox1 {
+    font-family: Calibri;
+    width: 472px;
+    height: 20px;
+}
+
+.deletePanelButton {
+    width: 78px;
+    height: 24px;
+    margin-right: 280px;
+    margin-left: 102px;
+    display: inline-block;
+    margin-top: 33px;
+    font-size: 16px;
+    font-family: Calibri;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 4px 4px 13px grey;
+}
+#cancelP {
+    /* margin-top: -18px; */
+    position: relative;
+    top: -56px;
+
+}
+#deleteP {
+    margin-right: 130px;
+    background-color: #FFFF17;
+}
+.textBox{
+    display:inline-block;
+}
+.hidden2{
+    display:none;
+}
+#grayBack {
+    background-color: rgba(128, 128, 128,0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index:1;
+}
+#explainPanel {
+    font-family: Calibri;
+    font-size: 24px;
+    width: 359px;
+    height: 111px;
+    margin-right: 817px;
+    margin-bottom: 66px;
+    /* margin-top: -266px; */
+    position: relative;
+    top: -275px;
+    border: solid;
+    border-width: 3px;
+    border-color: lightskyblue;
+    text-align: center;
+    padding-top: 71px;
+}
+.deleteBtn {
+    width: 78px;
+    height: 24px;
+    display: inline-block;
+    margin-top: 33px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    right: 121px;
+    margin-right: 24px;
+    box-shadow: 4px 4px 13px grey;
+}
+#yesDelete {
+    background-color: #FFFF17;
+}
+#back {
+    margin-bottom: -35px;
+    margin-right: 75%;
+}
+input#Button6, #Button11 {
+    border-radius: 50px;
+    border: hidden;
+    background-color: #FFFF17;
+    height: 35px;
+    font-size: 16px;
+    width: 87px;
+    margin-right: 102px;
+    margin-top: -59px;
+    position: relative;
+    top: -21px;
+    font-family: Calibri;
+    box-shadow: 4px 4px 13px grey;
+}
+#QuestLbl {
+    position: relative;
+    top: -41px;
+    right: -123px;
+}
+#QuestLbl2 {
+    position: relative;
+    top: -41px;
+    right: -228px;
+}
+
+
+.choodeFile {
+    display: inline-flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 133px;
+    right: -14px;
+    margin-left: 309px;
+    border-radius: 5px;
+    font-family: Calibri;
+    border-width: thin;
+    font-size: 12px;
+}
+input#Button11 {
+    position: relative;
+    right: -192px;
+}
+span#text {
+    position: relative;
+    right: 247px;
+}
+
+#picture {
+    position: relative;
+    top: 205px;
+    right: -27px;
+    color:red;
+}
+#picture2 {
+    position: relative;
+    top: 205px;
+    right: 176px;
+    color: red;
+}

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <idCounter>104</idCounter>
+  <game editorPublish="True" gameCode="104" Counter="25">
+    <gameName>%d7%9e%d7%a9%d7%97%d7%a7+%d7%93%d7%95%d7%92%d7%9e%d7%90</gameName>
+    <gameInstruction>%d7%94%d7%aa%d7%90%d7%9d+%d7%91%d7%99%d7%9f+%d7%94%d7%a4%d7%a8%d7%99%d7%98%d7%99%d7%9d+%d7%a2%d7%9c+%d7%94%d7%9c%d7%95%d7%97+%d7%a2%d7%9c+%d7%99%d7%93%d7%99+%d7%99%d7%a6%d7%99%d7%a8%d7%aa+%d7%9e%d7%a1%d7%9c%d7%95%d7%9c</gameInstruction>
+    <couples>
+      <couple id="25">
+        <item fileType="pic">imageNewName122_07_20-14_00_12.JPG</item>
+        <item fileType="txt">%d7%a9%d7%9c%d7%95%d7%9d</item>
+      </couple>
+      <couple id="24">
+        <item fileType="pic">imageNewName128_07_20-15_22_01.JPG</item>
+        <item fileType="pic">imageNewName222_07_20-14_00_52.JPG</item>
+      </couple>
+      <couple id="23">
+        <item fileType="txt">23</item>
+        <item fileType="txt">23</item>
+      </couple>
+      <couple id="22">
+        <item fileType="txt">22</item>
+        <item fileType="txt">22</item>
+      </couple>
+      <couple id="21">
+        <item fileType="txt">21</item>
+        <item fileType="txt">21</item>
+      </couple>
+      <couple id="20">
+        <item fileType="txt">20</item>
+        <item fileType="txt">20</item>
+      </couple>
+      <couple id="19">
+        <item fileType="txt">19</item>
+        <item fileType="txt">19</item>
+      </couple>
+      <couple id="18">
+        <item fileType="txt">18</item>
+        <item fileType="txt">18</item>
+      </couple>
+      <couple id="17">
+        <item fileType="txt">17</item>
+        <item fileType="txt">17</item>
+      </couple>
+      <couple id="16">
+        <item fileType="txt">16</item>
+        <item fileType="txt">16</item>
+      </couple>
+      <couple id="15">
+        <item fileType="txt">15</item>
+        <item fileType="txt">15</item>
+      </couple>
+      <couple id="14">
+        <item fileType="txt">13</item>
+        <item fileType="txt">14</item>
+      </couple>
+      <couple id="13">
+        <item fileType="txt">12</item>
+        <item fileType="txt">12</item>
+      </couple>
+      <couple id="12">
+        <item fileType="txt">11</item>
+        <item fileType="txt">11</item>
+      </couple>
+      <couple id="11">
+        <item fileType="txt">10</item>
+        <item fileType="txt">10</item>
+      </couple>
+      <couple id="10">
+        <item fileType="txt">9</item>
+        <item fileType="txt">9</item>
+      </couple>
+      <couple id="9">
+        <item fileType="txt">8</item>
+        <item fileType="txt">8</item>
+      </couple>
+      <couple id="8">
+        <item fileType="txt">7</item>
+        <item fileType="txt">7</item>
+      </couple>
+      <couple id="7">
+        <item fileType="txt">6</item>
+        <item fileType="txt">6</item>
+      </couple>
+      <couple id="6">
+        <item fileType="txt">6</item>
+        <item fileType="txt">6</item>
+      </couple>
+      <couple id="5">
+        <item fileType="txt">5</item>
+        <item fileType="txt">5</item>
+      </couple>
+      <couple id="4">
+        <item fileType="txt">4</item>
+        <item fileType="txt">4</item>
+      </couple>
+      <couple id="3">
+        <item fileType="txt">3</item>
+        <item fileType="txt">3</item>
+      </couple>
+      <couple id="2">
+        <item fileType="txt">2</item>
+        <item fileType="txt">2</item>
+      </couple>
+      <couple id="1">
+        <item fileType="txt">1</item>
+        <item fileType="txt">1</item>
+      </couple>
+    </couples>
+  </game>
+  <game editorPublish="True" gameCode="102" Counter="10">
+    <gameName>%d7%9e%d7%99%d7%9c%d7%99%d7%9d+%d7%9c%d7%a4%d7%a1%d7%99%d7%9b%d7%95%d7%9e%d7%98%d7%a8%d7%99</gameName>
+    <gameInstruction>%d7%94%d7%aa%d7%90%d7%9d+%d7%91%d7%99%d7%9f+%d7%94%d7%a4%d7%a8%d7%99%d7%98%d7%99%d7%9d+%d7%a2%d7%9c+%d7%94%d7%9c%d7%95%d7%97+%d7%a2%d7%9c+%d7%99%d7%93%d7%99+%d7%99%d7%a6%d7%99%d7%a8%d7%aa+%d7%9e%d7%a1%d7%9c%d7%95%d7%9c</gameInstruction>
+    <couples>
+      <couple id="10">
+        <item fileType="txt">%d7%9c%d7%90+%d7%93%d7%95%d7%91%d7%99%d7%9d+%d7%95%d7%9c%d7%90+%d7%99%d7%a2%d7%a8</item>
+        <item fileType="txt">%d7%9c%d7%90+%d7%94%d7%99%d7%95+%d7%93%d7%91%d7%a8%d7%99%d7%9d+%d7%9e%d7%a2%d7%95</item>
+      </couple>
+      <couple id="9">
+        <item fileType="txt">%d7%9c%d7%90%d7%94</item>
+        <item fileType="txt">%d7%a2%d7%99%d7%99%d7%a3</item>
+      </couple>
+      <couple id="8">
+        <item fileType="txt">%d7%92%d7%99%d7%9c%d7%95%d7%a4%d7%99%d7%9f</item>
+        <item fileType="txt">%d7%a9%d7%9b%d7%a8%d7%95%d7%aa+%d7%a7%d7%9c%d7%94</item>
+      </couple>
+      <couple id="7">
+        <item fileType="txt">%d7%90%d7%9e%d7%95%d7%93%d7%90%d7%99</item>
+        <item fileType="txt">%d7%a6%d7%95%d7%9c%d7%9c%d7%9f</item>
+      </couple>
+      <couple id="6">
+        <item fileType="txt">%d7%92%d7%91%d7%95+%d7%90%d7%9c+%d7%94%d7%a7%d7%99%d7%a8</item>
+        <item fileType="txt">%d7%9c%d7%9c%d7%90+%d7%9e%d7%95%d7%a6%d7%90</item>
+      </couple>
+      <couple id="5">
+        <item fileType="txt">%d7%90%d7%95%d7%a9%d7%94</item>
+        <item fileType="txt">%d7%a8%d7%a9%d7%a8%d7%95%d7%a9</item>
+      </couple>
+      <couple id="4">
+        <item fileType="txt">%d7%9e%d7%96%d7%95%d7%a8</item>
+        <item fileType="txt">%d7%a8%d7%a4%d7%95%d7%90%d7%94</item>
+      </couple>
+      <couple id="3">
+        <item fileType="txt">%d7%a7%d7%95%d7%9c%d7%9e%d7%95%d7%a1</item>
+        <item fileType="txt">%d7%a2%d7%98</item>
+      </couple>
+      <couple id="2">
+        <item fileType="txt">%d7%a7%d7%99%d7%98%d7%95%d7%9f</item>
+        <item fileType="txt">%d7%97%d7%93%d7%a8+%d7%a7%d7%98%d7%9f</item>
+      </couple>
+      <couple id="1">
+        <item fileType="txt">%d7%90%d7%a0%d7%a4%d7%99%d7%9c%d7%90%d7%95%d7%aa</item>
+        <item fileType="txt">%d7%a0%d7%a2%d7%9c%d7%99+%d7%91%d7%99%d7%aa</item>
+      </couple>
+    </couples>
+  </game>
+  <game editorPublish="True" gameCode="101" Counter="10">
+    <gameName>%d7%a2%d7%a8%d7%99%d7%9d+%d7%91%d7%99%d7%a9%d7%a8%d7%90%d7%9c</gameName>
+    <gameInstruction>%d7%94%d7%aa%d7%90%d7%9d+%d7%91%d7%99%d7%9f+%d7%94%d7%a4%d7%a8%d7%99%d7%98%d7%99%d7%9d+%d7%a2%d7%9c+%d7%94%d7%9c%d7%95%d7%97+%d7%a2%d7%9c+%d7%99%d7%93%d7%99+%d7%99%d7%a6%d7%99%d7%a8%d7%aa+%d7%9e%d7%a1%d7%9c%d7%95%d7%9c</gameInstruction>
+    <couples>
+      <couple id="10">
+        <item fileType="txt">%d7%99%d7%9d+%d7%94%d7%9e%d7%9c%d7%97</item>
+        <item fileType="pic">imageNewName219_07_20-20_35_38.jpg</item>
+      </couple>
+      <couple id="9">
+        <item fileType="txt">%d7%94%d7%97%d7%a8%d7%9e%d7%95%d7%9f</item>
+        <item fileType="pic">imageNewName219_07_20-20_35_22.jpg</item>
+      </couple>
+      <couple id="8">
+        <item fileType="txt">%d7%94%d7%a8%d7%a6%d7%9c%d7%99%d7%94</item>
+        <item fileType="pic">imageNewName219_07_20-20_35_01.jpg</item>
+      </couple>
+      <couple id="7">
+        <item fileType="txt">%d7%98%d7%91%d7%a8%d7%99%d7%94</item>
+        <item fileType="pic">imageNewName219_07_20-20_34_22.JPG</item>
+      </couple>
+      <couple id="6">
+        <item fileType="txt">%d7%a2%d7%9b%d7%95</item>
+        <item fileType="pic">imageNewName219_07_20-20_34_06.jpg</item>
+      </couple>
+      <couple id="5">
+        <item fileType="txt">%d7%97%d7%99%d7%a4%d7%94</item>
+        <item fileType="pic">imageNewName219_07_20-20_33_56.jpg</item>
+      </couple>
+      <couple id="4">
+        <item fileType="txt">%d7%90%d7%99%d7%9c%d7%aa</item>
+        <item fileType="pic">imageNewName219_07_20-20_33_42.jpg</item>
+      </couple>
+      <couple id="3">
+        <item fileType="txt">%d7%99%d7%a8%d7%95%d7%a9%d7%9c%d7%99%d7%9d</item>
+        <item fileType="pic">imageNewName219_07_20-20_33_28.jpg</item>
+      </couple>
+      <couple id="2">
+        <item fileType="txt">%d7%99%d7%a4%d7%95</item>
+        <item fileType="pic">imageNewName219_07_20-20_33_13.jpg</item>
+      </couple>
+      <couple id="1">
+        <item fileType="txt">%d7%9e%d7%a6%d7%93%d7%94</item>
+        <item fileType="pic">imageNewName219_07_20-20_32_59.jpg</item>
+      </couple>
+    </couples>
+  </game>
+</project>
