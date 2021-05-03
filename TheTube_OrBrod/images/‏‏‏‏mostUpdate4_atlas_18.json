@@ -1,0 +1,27 @@
+﻿{"frames": {
+
+"Group_0":
+{
+	"frame": {"x":0,"y":829,"w":1362,"h":792},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1362,"h":792},
+	"sourceSize": {"w":1362,"h":792}
+},
+"Group_2_2":
+{
+	"frame": {"x":0,"y":0,"w":1354,"h":827},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1354,"h":827},
+	"sourceSize": {"w":1354,"h":827}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "20.5.0.29329",
+	"image": "‏‏‏‏mostUpdate4_atlas_18.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}

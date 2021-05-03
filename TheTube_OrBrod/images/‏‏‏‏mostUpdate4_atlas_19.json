@@ -1,0 +1,107 @@
+﻿{"frames": {
+
+"CachedBmp_701":
+{
+	"frame": {"x":797,"y":1249,"w":487,"h":466},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":487,"h":466},
+	"sourceSize": {"w":487,"h":466}
+},
+"CachedBmp_772":
+{
+	"frame": {"x":610,"y":0,"w":1201,"h":302},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1201,"h":302},
+	"sourceSize": {"w":1201,"h":302}
+},
+"Group_1":
+{
+	"frame": {"x":797,"y":1717,"w":730,"h":305},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":730,"h":305},
+	"sourceSize": {"w":730,"h":305}
+},
+"Group_1_3":
+{
+	"frame": {"x":1286,"y":1249,"w":730,"h":305},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":730,"h":305},
+	"sourceSize": {"w":730,"h":305}
+},
+"Group_2_0":
+{
+	"frame": {"x":0,"y":0,"w":608,"h":608},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":608,"h":608},
+	"sourceSize": {"w":608,"h":608}
+},
+"Path_27":
+{
+	"frame": {"x":1611,"y":304,"w":277,"h":792},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":277,"h":792},
+	"sourceSize": {"w":277,"h":792}
+},
+"Path_41":
+{
+	"frame": {"x":0,"y":1211,"w":441,"h":793},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":441,"h":793},
+	"sourceSize": {"w":441,"h":793}
+},
+"Path_42":
+{
+	"frame": {"x":443,"y":1249,"w":352,"h":797},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":352,"h":797},
+	"sourceSize": {"w":352,"h":797}
+},
+"Path_5":
+{
+	"frame": {"x":610,"y":304,"w":999,"h":313},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":999,"h":313},
+	"sourceSize": {"w":999,"h":313}
+},
+"Path_6":
+{
+	"frame": {"x":601,"y":619,"w":999,"h":313},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":999,"h":313},
+	"sourceSize": {"w":999,"h":313}
+},
+"Path_6_0_1":
+{
+	"frame": {"x":0,"y":610,"w":599,"h":599},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":599,"h":599},
+	"sourceSize": {"w":599,"h":599}
+},
+"Path_7_1":
+{
+	"frame": {"x":601,"y":934,"w":999,"h":313},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":999,"h":313},
+	"sourceSize": {"w":999,"h":313}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "20.5.0.29329",
+	"image": "‏‏‏‏mostUpdate4_atlas_19.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}
